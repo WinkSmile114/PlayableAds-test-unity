@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5353660167024268918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5839393797917508452}
+  - component: {fileID: 3329292690988557766}
+  - component: {fileID: 4266480024793961947}
+  m_Layer: 0
+  m_Name: Money
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5839393797917508452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5353660167024268918}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.96, y: 1.5, z: -0.5}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3329292690988557766
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5353660167024268918}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 589a28a2e256bd449a7f62df3f948b75, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4266480024793961947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5353660167024268918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44008265a965ed24284d6dcac6b4ac1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DropItem
+  itemType: 1
+  sr: {fileID: 0}
+  pickupRange: 1.5
+  dropAnim:
+  - {fileID: 21300000, guid: 9804c64f1593f6c4b9f710412dc7cf16, type: 3}
+  - {fileID: 21300000, guid: 7d65477750e523a4480da2eb4de02e53, type: 3}
+  - {fileID: 21300000, guid: f39a890215fd79d4aa0a14f37bb669f6, type: 3}
+  - {fileID: 21300000, guid: 045553b7ff2b2994880b28167890662d, type: 3}
+  - {fileID: 21300000, guid: 61d49fd52cc3e76488abc84be33a387e, type: 3}
+  - {fileID: 21300000, guid: 348439967e35b7f4ebf6360aea2ce072, type: 3}
+  - {fileID: 21300000, guid: e1b704fdf191f2e4c8198a92a3327419, type: 3}
+  - {fileID: 21300000, guid: 8f3b2c8502fc5dc4bb3f97c5b82c33e7, type: 3}
+  - {fileID: 21300000, guid: b6918a97c022e494f971067424bc98a0, type: 3}
+  - {fileID: 21300000, guid: b9c2df77eaab65c44958b531f303850e, type: 3}
+  idleAnim:
+  - {fileID: 21300000, guid: 74a7978e7309cec42b07855f068b7c74, type: 3}
+  - {fileID: 21300000, guid: d961e3ee326ebfc4fa394f867777d4bf, type: 3}
+  - {fileID: 21300000, guid: 6048c09cd7ee7b942b87b5eaef6543b1, type: 3}
+  - {fileID: 21300000, guid: 759b9cbd08a393845a7a0a2cb24e9cde, type: 3}
+  - {fileID: 21300000, guid: d4b04b390f7eace4f9114789bd7e6b5e, type: 3}
+  - {fileID: 21300000, guid: 589a28a2e256bd449a7f62df3f948b75, type: 3}
+  - {fileID: 21300000, guid: 2ab180187d44a5944bf79a0c0e737d48, type: 3}
+  - {fileID: 21300000, guid: cfd466c8e6a5f114d9751e5df3f0f7ca, type: 3}
+  - {fileID: 21300000, guid: 685a93e11fbfb664a987955e85679bf7, type: 3}
+  - {fileID: 21300000, guid: e04610841bb840944ae65962fa55ea46, type: 3}
+  pickupAnim:
+  - {fileID: 21300000, guid: 79d13e8640fd7234b840ab9abdab5725, type: 3}
+  - {fileID: 21300000, guid: 4a161a40eecc6234cb04966719d9fcde, type: 3}
+  - {fileID: 21300000, guid: 4679a29c905a9be4eb8acc5c02747e31, type: 3}
+  - {fileID: 21300000, guid: 44726bff63df8834dab2d365e13034cd, type: 3}
+  - {fileID: 21300000, guid: 9e7c688858c0d1c44abff10468e76d65, type: 3}
+  - {fileID: 21300000, guid: 5d1994344dbb5354db2e4ae04cac8130, type: 3}
+  - {fileID: 21300000, guid: 01bb0d7d0dd6da74baf959f068d212cf, type: 3}
+  - {fileID: 21300000, guid: ca405b2d42507684da0787620cd0b9ad, type: 3}
+  - {fileID: 21300000, guid: 65352b4ef6f751243960c0cf6e55cb64, type: 3}
+  - {fileID: 21300000, guid: b37f742de754c9f4f9f49c750b52460e, type: 3}
